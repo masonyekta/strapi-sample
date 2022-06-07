@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_pricings",
+  "info": {
+    "displayName": "Pricing",
+    "icon": "money-bill"
+  },
+  "options": {},
+  "attributes": {
+    "Price": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}

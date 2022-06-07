@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_menu_items_menu_items",
+  "info": {
+    "displayName": "navigation",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

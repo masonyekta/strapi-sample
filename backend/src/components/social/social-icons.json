@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_social_social_icons",
+  "info": {
+    "displayName": "Social Links",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "socialTitle": {
+      "type": "string"
+    },
+    "socialAccountName": {
+      "type": "string"
+    }
+  }
+}

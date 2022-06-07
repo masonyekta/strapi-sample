@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "headers",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "Header",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "siteLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "siteTagline": {
+      "type": "string"
+    },
+    "menuItems": {
+      "displayName": "Menu Items",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.menu-items"
+    }
+  }
+}
