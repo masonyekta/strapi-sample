@@ -14,11 +14,15 @@
   "attributes": {
     "siteName": {
       "type": "string",
-      "required": true
+      "required": true,
+      "displayName": "Site Name",
+      "label": "Site Name",
+      "description": "Site name"
     },
     "siteDescription": {
       "type": "text",
-      "required": true
+      "required": true,
+      "displayName": "Site Description"
     },
     "siteUrl": {
       "type": "string",

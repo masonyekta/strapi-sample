@@ -18,16 +18,16 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "dump:config": "strapi config:dump -pf strapiConfig.json",
+    "restore:config": "strapi config:restore -s replace -f strapiConfig.json"
   },
   "devDependencies": {},
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "6162a13d-58ad-453d-901f-6b8343825de4",
-    "template": "@strapi/template-blog@^2.0.0",
-    "starter": "@strapi/starter-gatsby-blog"
+    "uuid": "6162a13d-58ad-453d-901f-6b8343825de4"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",
